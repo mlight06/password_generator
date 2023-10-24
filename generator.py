@@ -6,8 +6,7 @@ import re
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*'
 # chars = re.compile('')
 
-numPasswords = input('How many passwords would you like to generate?')
-numPasswords = int(numPasswords)
+numPasswords = int(input('How many passwords would you like to generate?'))
 passLength = int(input("How many characters do you need for your password?"))
 
 print('\nHere are your passwords:')
